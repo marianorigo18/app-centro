@@ -6,6 +6,7 @@ import iconGrupo from "../assets/social-media/grupo.png"
 import iconLlamad from "../assets/social-media/llamada.png"
 import iconMark from "../assets/social-media/marcador-de-posicion.png"
 import iconGmail from "../assets/social-media/gmail.png"
+import BubbleWhats from "./BubbleWhats";
 
 const FooterS = styled.div`
   background-color: #000;
@@ -66,6 +67,7 @@ const ListItemContact = styled.div`
   li a {
     display: flex;
     font-weight: 100;
+    color: #fff;
   }
 `;
 const IconImg = styled.img`
@@ -76,6 +78,7 @@ const IconImg = styled.img`
 const Footer = () => {
   return (
     <FooterS>
+      <BubbleWhats></BubbleWhats>
       <FooterContainer>
         <GridItem>
           <Title>contenido</Title>
