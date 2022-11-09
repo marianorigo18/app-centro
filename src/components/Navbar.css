@@ -60,10 +60,10 @@ body{
 }
 .menu__link:hover{
     transition: .3s;
-    background-color: #ABEBC6;
     color: #000;
     font-weight: 600;
     overflow: hidden;
+    background-color: #ABEBC6; 
 }
 .menu__item{
     position: relative;

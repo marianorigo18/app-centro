@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import telefono from "../assets/social-media/llamada-telefonica.png";
-import alfiler from "../assets/social-media/alfiler.png";
-import correo from "../assets/social-media/correo-electronico.png";
-import whatsapp from "../assets/social-media/whatsapp.png";
+import telefono from "../assets/social-media/llamada.png";
+import alfiler from "../assets/social-media/marcador-de-posicion.png";
+import correo from "../assets/social-media/gmail.png";
+import whatsapp from "../assets/social-media/whatsapp-green.png";
 
 const Main = styled.div`
   font-family: "Work Sans", sans-serif;
@@ -20,6 +20,7 @@ const MainContainer = styled.div`
 `;
 const TitleContact = styled.h2`
   font-size: 58px;
+  font-family: initial;
   font-weight: 300;
   margin-bottom: 30px;
   @media (max-width: 578px) {
@@ -73,8 +74,7 @@ const Contact = () => {
         <TextContact>
           <ImageContainer>
             <ImgSocial src={whatsapp}></ImgSocial>
-          </ImageContainer>
-          3755-500004
+          </ImageContainer><a href="https://wa.link/jimcvt" target="_blank" rel="noreferrer">3755-500004</a>
         </TextContact>
       </MainContainer>
     </Main>

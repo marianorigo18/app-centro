@@ -83,6 +83,9 @@ const Footer = () => {
         <GridItem>
           <Title>contenido</Title>
           <ListItemContent>
+          <li>
+              <Link to="/">inicio</Link>
+            </li>
             <li>
               <Link to="/industria">industria</Link>
             </li>
@@ -123,7 +126,7 @@ const Footer = () => {
           <ListItemContact>
             <li><IconImg src={iconGmail} alt="icono de instagram"></IconImg>info@electricidad-centro.com.ar</li>
             <li>
-              <a href="https://wa.link/jimcvt">
+              <a  href="https://wa.link/jimcvt" target="_blank" rel="noreferrer">
                 <IconImg src={iconWhats} alt="icono de whatsapp"></IconImg>
                 3755500004
               </a>
