@@ -7,7 +7,7 @@ import iconLlamad from "../assets/social-media/llamada.png"
 import iconMark from "../assets/social-media/marcador-de-posicion.png"
 import iconGmail from "../assets/social-media/gmail.png"
 import BubbleWhats from "./BubbleWhats";
-
+import facebook from "../assets/social-media/facebook.png"
 const FooterS = styled.div`
   background-color: #000;
 `;
@@ -144,7 +144,12 @@ const Footer = () => {
         <GridItem>
           <Title>social media</Title>
           <ListItemContent>
-            <li><IconImg src={iconInsta} alt="icono de instagram"></IconImg>instagram</li>
+            <li><a href="https://www.instagram.com/electricidadcentrooficial/" target="_blamk">
+              <IconImg src={iconInsta} alt="icono de instagram"></IconImg>instagram
+            </a></li>
+            <li><a href="https://www.facebook.com/electricidadcentro.oficial/" target="_blamk">
+              <IconImg src={facebook} alt="icono de instagram"></IconImg>facebook
+            </a></li>
           </ListItemContent>
         </GridItem>
       </FooterContainer>

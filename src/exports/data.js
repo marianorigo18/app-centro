@@ -1195,7 +1195,7 @@ export const bubble = [
   {
     id: 6,
     img: medicion,
-    title: "testing",
+    title: "medicion",
     link: "/instrumentos-de-medicion",
   },
   {

@@ -13,7 +13,7 @@ import {
   industriaT,
 } from "../exports/data";
 const LayoutHome = styled.div`
-  max-width: 1000px;
+  max-width: 1500px;
   width: 100%;
   box-sizing: border-box;
   margin: 120px auto 5px auto;
@@ -89,19 +89,22 @@ const ButtonContact = styled.div`
 const LayoutContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, 450px);
+  grid-template-rows: repeat(6, 650px);
   justify-content: center;
+  @media (max-width: 1290px) {
+    grid-template-rows: repeat(6, 500px);
+  }
   @media (max-width: 968px) {
-    grid-template-rows: repeat(4, 400px);
+    grid-template-rows: repeat(6, 400px);
   }
   @media (max-width: 768px) {
-    grid-template-rows: repeat(4, 300px);
+    grid-template-rows: repeat(6, 300px);
   }
   @media (max-width: 568px) {
-    grid-template-rows: repeat(4, 200px);
+    grid-template-rows: repeat(6, 200px);
   }
   @media (max-width: 338px) {
-    grid-template-rows: repeat(4, 150px);
+    grid-template-rows: repeat(6, 150px);
   }
 `;
 const GridItem = styled.div`
@@ -184,8 +187,7 @@ const Home = () => {
               SOMOS LIDERES EN MATERIALES ELECTRICOS E ILUMINACION.
             </HiddenTitle>
             <HiddenParagraph>
-              PRODUCTOS DE PRIMERA LINEA Y CALIDAD PROCEDENTES DE UNA COMPLETA
-              VARIEDAD DE MARCAS.
+            "PRODUCTOS DE PRIMERA CALIDAD PARA LA INDUSTRIA Y EL HOGAR"
               <ButtonContact>
                 <Link to="/contacto">contacto</Link>
               </ButtonContact>

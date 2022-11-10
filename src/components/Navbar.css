@@ -137,6 +137,12 @@ body{
     border-radius: 50%;
     padding: 8px;
 }
+@media(min-width:900px) {
+    .anuncio__bubble{
+        width: 60px;
+        height: 60px;
+    }
+}
 .anuncio__bubble img{
     width: 100%;
 }
@@ -150,9 +156,15 @@ body{
     color: #7B7D7D;
     transition: .3s;
 }
+@media(min-width:900px) {
+    .anuncio__link{
+        font-size: 11px;
+    }
+}
 .anuncio__link:hover{
     color: #088A08;
 }
+
 .anuncio__paragraph{
     padding-top: 5px;
 }
