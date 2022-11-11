@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 340px;
-  margin: 120px 0 5px 0;
+  margin: 190px 0 5px 0;
   padding: 10px;
   transition: 0.3s;
   border-radius: 5px;

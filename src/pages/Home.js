@@ -18,7 +18,7 @@ const LayoutHome = styled.div`
   box-sizing: border-box;
   margin: 120px auto 5px auto;
   @media (min-width: 768px) {
-    margin: 140px auto 5px auto;
+    margin: 190px auto 5px auto;
   }
 `;
 const Hidden = styled.div`
