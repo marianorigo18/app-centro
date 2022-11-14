@@ -39,7 +39,7 @@ import soldadura from "../assets/conductores/soldadura.jpg";
 import cuDesnudo from "../assets/conductores/desnudo-cu.jpg";
 import unipolares from "../assets/conductores/unipolares.jpg";
 //Terminales
-import terminalCu from "../assets/terminales/terminal-cobre-estañado.jpg";
+import terminalCu from "../assets/terminales/terminal-cobre-estanado.jpg";
 import tubulares from "../assets/terminales/tubulares.jpg";
 import preaislados from "../assets/terminales/preaislados.jpg";
 import bimetalicoForjado from "../assets/terminales/bimetalico-forjado.jpg";
