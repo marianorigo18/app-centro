@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -27,7 +27,7 @@ class App extends Component {
   };
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
           <Navbar logos={this.state.logos} toppic={topic} logo={logos}/>
           <Routes>
             <Route path="/" element={<Home topicSection={this.state.topicSection} toppic={topic}/>}/>
@@ -44,7 +44,7 @@ class App extends Component {
             <Route path="/morceteria" element={<Morceteria topic={topic} morceteriaT={morceteriaT}/>} />
             <Route path="/contacto" element={<Contact/>}/>
           </Routes>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
